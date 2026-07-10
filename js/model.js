@@ -5,10 +5,10 @@
 
 const Model = {
 
-  githubUser: "Omicron69",
+  githubUser: "mateus-sposo",
 
   // Where the contact form delivers (via formsubmit.co relay)
-  contactEmail: "mez.rahman777@gmail.com",
+  contactEmail: "mat.sposo@gmail.com",
 
   // App state (read/written by the Controller, displayed by the View)
   state: {
@@ -19,6 +19,7 @@ const Model = {
   },
 
   // ---- Featured projects (hand-written, shown above the GitHub feed) ----
+  // Change to mine!!
   featured: [
     {
       title: "BSL Fingerspelling: “Hands”",
@@ -52,6 +53,7 @@ const Model = {
   ],
 
   // Repos already shown in "featured" get hidden from the GitHub feed
+  // Change to mine!!
   featuredRepoNames: [
     "BritishFingerSpellingAI",
     "Granular-Sentiment-Pipeline-Class-Weighted-Transformers-for-Steam-Reviews",
@@ -60,6 +62,7 @@ const Model = {
   ],
 
   // Shown if the GitHub API can't be reached
+  // Change to mine!!
   fallbackRepos: [
     {
       name: "crime-analysis-montgomery-county", language: "Jupyter Notebook", stargazers_count: 0,
@@ -97,23 +100,16 @@ const Model = {
 
   // ---- Skills screen ----
   skills: [
-    { group: "AI · ML · Data Science", items: [
-      ["Python · pandas · NumPy", 92], ["TensorFlow / Keras · PyTorch", 88],
-      ["scikit-learn · XGBoost", 86], ["CNNs & Transfer Learning", 85],
-      ["NLP & Transformers", 82], ["Computer Vision · MediaPipe", 86],
-    ]},
     { group: "Web & Full-Stack", items: [
-      ["JavaScript / TypeScript", 86], ["React · React Native · Next.js", 84],
-      ["Node.js · REST APIs", 80], ["TensorFlow.js (in-browser ML)", 84],
-      ["PHP · SQL · PostgreSQL", 74], ["UX Design · Figma · Adobe XD", 82],
+      ["JavaScript / TypeScript", 56], ["React · React Native · Next.js", 44],
+      ["Node.js · REST APIs", 35], ["UX Design · Figma", 90],
     ]},
     { group: "Cloud & Engineering", items: [
-      ["Git & GitHub", 88], ["AWS · Azure · GCP", 74],
-      ["Docker · Firebase", 76], ["Agile · PRINCE2 Agile", 80],
-      ["Tableau · Power BI", 72], ["Bash · PowerShell", 75],
+      ["Git & GitHub", 80], ["Docker · Firebase", 46],
+      ["Bash · PowerShell", 70], ["Linux · Windows", 80],
     ]},
     { group: "Spoken Languages", items: [
-      ["English · Bengali · Hindi · Urdu", 100], ["Japanese (JLPT N4)", 62], ["Mandarin", 30],
+      ["English · Portuguese", 100], ["Spanish", 35],
     ]},
   ],
 
