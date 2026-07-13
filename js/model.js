@@ -21,35 +21,35 @@ const Model = {
   // ---- Featured projects (hand-written, shown above the GitHub feed) ----
   // Change to mine!!
   featured: [
-    {
-      title: "BSL Fingerspelling: “Hands”",
-      tag: "Live App", color: "#3dff6e", live: true,
-      url: "https://bslgame.co.uk/", cta: "Play at bslgame.co.uk →",
-      img: "assets/projects/bsl.png",
-      desc: "A game that teaches you the BSL alphabet using nothing but your webcam. Built with React, Node.js, TensorFlow.js and MediaPipe hand tracking. This was my final year project and it scored an A+ at 87/100.",
-    },
-    {
-      title: "Steam Review Sentiment with Transformers",
-      tag: "NLP", color: "#e60012",
-      url: "https://github.com/Omicron69/Granular-Sentiment-Pipeline-Class-Weighted-Transformers-for-Steam-Reviews",
-      cta: "View on GitHub →",
-      img: "assets/projects/steam.png",
-      desc: "Fine-tuned DistilBERT, BERTweet and RoBERTa to sort Steam reviews into a custom six-class sentiment taxonomy, with class weighting to handle the imbalance. RoBERTa came out on top at 88.2% F1.",
-    },
-    {
-      title: "DownloadGuard",
-      tag: "Security", color: "#f1e05a",
-      url: "https://github.com/Omicron69/DownloadGuard", cta: "View on GitHub →",
-      img: "assets/projects/downloadguard.png",
-      desc: "A Chrome extension that protects everyday users in real time. It watches for malicious downloads, phishing emails, deceptive links and QR code scams, all layered into one Manifest V3 extension.",
-    },
-    {
-      title: "Medical Image Classification",
-      tag: "Deep Learning", color: "#3178c6",
-      url: "https://github.com/Omicron69/organsmnist-cnn-classification", cta: "View on GitHub →",
-      img: "assets/projects/medcnn.png",
-      desc: "Classifying organs in CT scans, from a baseline dense net to five custom CNNs to fine-tuned ResNet50 and EfficientNetB0, reaching 79% test accuracy on 25,000+ OrganSMNIST images.",
-    },
+    // {
+    //   title: "BSL Fingerspelling: “Hands”",
+    //   tag: "Live App", color: "#3dff6e", live: true,
+    //   url: "https://bslgame.co.uk/", cta: "Play at bslgame.co.uk →",
+    //   img: "assets/projects/bsl.png",
+    //   desc: "A game that teaches you the BSL alphabet using nothing but your webcam. Built with React, Node.js, TensorFlow.js and MediaPipe hand tracking. This was my final year project and it scored an A+ at 87/100.",
+    // },
+    // {
+    //   title: "Steam Review Sentiment with Transformers",
+    //   tag: "NLP", color: "#e60012",
+    //   url: "https://github.com/Omicron69/Granular-Sentiment-Pipeline-Class-Weighted-Transformers-for-Steam-Reviews",
+    //   cta: "View on GitHub →",
+    //   img: "assets/projects/steam.png",
+    //   desc: "Fine-tuned DistilBERT, BERTweet and RoBERTa to sort Steam reviews into a custom six-class sentiment taxonomy, with class weighting to handle the imbalance. RoBERTa came out on top at 88.2% F1.",
+    // },
+    // {
+    //   title: "DownloadGuard",
+    //   tag: "Security", color: "#f1e05a",
+    //   url: "https://github.com/Omicron69/DownloadGuard", cta: "View on GitHub →",
+    //   img: "assets/projects/downloadguard.png",
+    //   desc: "A Chrome extension that protects everyday users in real time. It watches for malicious downloads, phishing emails, deceptive links and QR code scams, all layered into one Manifest V3 extension.",
+    // },
+    // {
+    //   title: "Medical Image Classification",
+    //   tag: "Deep Learning", color: "#3178c6",
+    //   url: "https://github.com/Omicron69/organsmnist-cnn-classification", cta: "View on GitHub →",
+    //   img: "assets/projects/medcnn.png",
+    //   desc: "Classifying organs in CT scans, from a baseline dense net to five custom CNNs to fine-tuned ResNet50 and EfficientNetB0, reaching 79% test accuracy on 25,000+ OrganSMNIST images.",
+    // },
   ],
 
   // Repos already shown in "featured" get hidden from the GitHub feed
@@ -64,26 +64,26 @@ const Model = {
   // Shown if the GitHub API can't be reached
   // Change to mine!!
   fallbackRepos: [
-    {
-      name: "crime-analysis-montgomery-county", language: "Jupyter Notebook", stargazers_count: 0,
-      html_url: "https://github.com/Omicron69/crime-analysis-montgomery-county",
-      description: "Ten years of Montgomery County crime data, taken from a messy 90 MB government CSV to ten answered analytical questions, geospatial hotspot maps and a district safety ranking.",
-    },
-    {
-      name: "asthma-worsening-prediction", language: "MATLAB", stargazers_count: 0,
-      html_url: "https://github.com/Omicron69/asthma-worsening-prediction",
-      description: "Predicting worsening asthma symptoms from NHS primary-care data with SQL and MATLAB, following CRISP-DM. Compares four models on a heavily imbalanced clinical dataset.",
-    },
-    {
-      name: "Chronic-Kideney-Disease-Analyzer", language: "PHP", stargazers_count: 0,
-      html_url: "https://github.com/Omicron69/Chronic-Kideney-Disease-Analyzer",
-      description: "A healthcare tracking web app. I led the front-end and requirements analysis in a multidisciplinary team, and our solution improved patient diagnostics by 25%.",
-    },
-    {
-      name: "MSc-Washington-Crime-Analysis-with-Pandas", language: "Jupyter Notebook", stargazers_count: 0,
-      html_url: "https://github.com/Omicron69/MSc-Washington-Crime-Analysis-with-Pandas",
-      description: "Crime trend analysis of Washington D.C. public data. Reproducible Pandas notebooks with visual summaries written for people who do not code.",
-    },
+    // {
+    //   name: "crime-analysis-montgomery-county", language: "Jupyter Notebook", stargazers_count: 0,
+    //   html_url: "https://github.com/Omicron69/crime-analysis-montgomery-county",
+    //   description: "Ten years of Montgomery County crime data, taken from a messy 90 MB government CSV to ten answered analytical questions, geospatial hotspot maps and a district safety ranking.",
+    // },
+    // {
+    //   name: "asthma-worsening-prediction", language: "MATLAB", stargazers_count: 0,
+    //   html_url: "https://github.com/Omicron69/asthma-worsening-prediction",
+    //   description: "Predicting worsening asthma symptoms from NHS primary-care data with SQL and MATLAB, following CRISP-DM. Compares four models on a heavily imbalanced clinical dataset.",
+    // },
+    // {
+    //   name: "Chronic-Kideney-Disease-Analyzer", language: "PHP", stargazers_count: 0,
+    //   html_url: "https://github.com/Omicron69/Chronic-Kideney-Disease-Analyzer",
+    //   description: "A healthcare tracking web app. I led the front-end and requirements analysis in a multidisciplinary team, and our solution improved patient diagnostics by 25%.",
+    // },
+    // {
+    //   name: "MSc-Washington-Crime-Analysis-with-Pandas", language: "Jupyter Notebook", stargazers_count: 0,
+    //   html_url: "https://github.com/Omicron69/MSc-Washington-Crime-Analysis-with-Pandas",
+    //   description: "Crime trend analysis of Washington D.C. public data. Reproducible Pandas notebooks with visual summaries written for people who do not code.",
+    // },
   ],
 
   // Optional thumbnail overrides: repo name → image path.
