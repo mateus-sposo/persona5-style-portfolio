@@ -1,7 +1,7 @@
-/* =====================================================================
-   MODEL — the data and state of the app. Never touches the DOM.
-   Edit your content here: featured projects, skills, image overrides.
-   ===================================================================== */
+/*=====================================================================
+  MODEL — the data and state of the app. Never touches the DOM.
+  Edit your content here: featured projects, skills, image overrides.
+  ===================================================================== */
 
 const Model = {
 
@@ -102,11 +102,17 @@ const Model = {
   skills: [
     { group: "Web & Full-Stack", items: [
       ["JavaScript / TypeScript", 56], ["React · React Native · Next.js", 44],
-      ["Node.js · REST APIs", 35], ["UX Design · Figma", 90],
+      ["Node.js · REST APIs", 35], ["UX Design · Figma", 91],
+    ]},
+    {
+      // C++, python
+      group: "Programming Languages", items: [
+        ["Python", 64], ["C++", 82],
+        ["Java", 46], ["R · RStudio", 59],
     ]},
     { group: "Cloud & Engineering", items: [
-      ["Git & GitHub", 80], ["Docker · Firebase", 46],
-      ["Bash · PowerShell", 70], ["Linux · Windows", 80],
+      ["Git & GitHub", 79], ["Docker", 56],
+      ["Bash · PowerShell", 64], ["Linux · Windows", 83],
     ]},
     { group: "Spoken Languages", items: [
       ["English · Portuguese", 100], ["Spanish", 35],

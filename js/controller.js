@@ -1,6 +1,6 @@
-/* =====================================================================
-   CONTROLLER — listens to the user, updates the Model, tells the View.
-   ===================================================================== */
+/*  =====================================================================
+    CONTROLLER — listens to the user, updates the Model, tells the View.
+    ===================================================================== */
 
 const Controller = {
 
@@ -146,5 +146,39 @@ const Controller = {
     });
   },
 };
+
+  const intro = document.getElementById("intro-screen");
+  const music = document.getElementById("bgMusic");
+  music.volume = 0;
+
+  intro.addEventListener("click", () => {
+    music.play();
+    let volume = 0;
+    const fade = setInterval(() => {
+
+      volume += 0.0005;
+
+      if(volume >= 0.025){
+        volume = 0.025;
+        clearInterval(fade);
+      }
+
+      music.volume = volume;
+    },100);
+
+    intro.classList.add("hidden");
+    setTimeout(() => intro.remove(),800);
+  },{once:true});
+
+  const musicButton = document.getElementById("musicButton");
+  musicButton.addEventListener("click", () => {
+    if (music.paused) {
+      music.play();
+      musicButton.textContent = "🔊 Beneath the Mask";
+    } else {
+      music.pause();
+      musicButton.textContent = "🔇 Beneath the Mask";
+    }
+  });
 
 Controller.init();

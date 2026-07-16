@@ -1,7 +1,7 @@
-/* =====================================================================
-   VIEW — everything that draws to the screen. No app logic lives here;
-   the Controller tells the View what to show.
-   ===================================================================== */
+/*  =====================================================================
+    VIEW — everything that draws to the screen. No app logic lives here;
+    the Controller tells the View what to show.
+    ===================================================================== */
 
 const View = {
 
@@ -181,7 +181,7 @@ const View = {
   startClock() {
     setInterval(() => {
       this.els.clock.textContent =
-        new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) + " · LDN";
+        new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }) + " · BRA";
     }, 1000);
   },
 

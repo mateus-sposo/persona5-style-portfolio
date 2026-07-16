@@ -527,3 +527,27 @@ body.has-art-home #big-name .ch:not(.box):not(.boxw){
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001s !important;transition-duration:.001s !important;}
 }
+
+#intro-screen{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.75);
+    backdrop-filter: blur(8px);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    z-index:9999;
+    cursor:pointer;
+
+    transition:opacity .8s ease;
+}
+
+#intro-screen.hidden{
+    opacity:0;
+    pointer-events:none;
+}
